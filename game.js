@@ -39,7 +39,7 @@ function flash() {
     time+=500;
     console.log(time)
   }
-  setTimeout(() => { flashing = false }, time+250);
+  setTimeout(() => { flashing = false }, time);
 }
 
 function newColor() {
