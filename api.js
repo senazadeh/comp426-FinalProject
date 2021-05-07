@@ -38,7 +38,7 @@ fetch("https://official-joke-api.appspot.com/random_joke", {
 });
 
 
-fetch("https://newsapi.org/v2/everything?domains=wsj.com&apiKey=9d3d473033114abd9f744fda2fa0f2ce", {
+fetch("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9d3d473033114abd9f744fda2fa0f2ce", {
 	"method": "GET"
 })
 .then(response => {
