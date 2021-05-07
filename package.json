@@ -1,0 +1,27 @@
+{
+  "name": "comp426-final",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "@tarp/require": "^1.4.3",
+    "axios": "^0.21.1",
+    "browser-sync": "^2.26.14",
+    "firebase": "^8.4.3",
+    "firebase-tools": "^9.10.0",
+    "twit": "^2.2.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senazadeh/Comp426-Final.git"
+  },
+  "bugs": {
+    "url": "https://github.com/senazadeh/Comp426-Final/issues"
+  },
+  "homepage": "https://github.com/senazadeh/Comp426-Final#readme",
+  "description": ""
+}

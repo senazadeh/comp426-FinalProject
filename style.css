@@ -1,0 +1,234 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+
+
+#trivia {
+    padding-right: 50px;
+    grid-column: 1;
+    grid-row: 1;
+}
+#joke {
+    padding-right: 50px;
+    padding-top: 30px;
+    grid-column: 1;
+    grid-row: 2;
+}
+#news1 {
+    padding-right: 50px;
+    grid-column: 2;
+    grid-row: 1;
+}
+#news2 {
+    padding-right: 50px;
+    padding-top: 30px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#news1Button {
+    margin-left: 20px;
+}
+#news2Button {
+    margin-left: 20px;
+}
+#triviaButton {
+    margin-left: 20px;
+}
+#jokeButton {
+    margin-left: 20px;
+}
+#signInBtn {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+#userDetails {
+    position: absolute;
+    right: 40px;
+    top: 20px; 
+    background-color: transparent;
+}
+
+#signOutBtn {
+    position: absolute;
+    right: 40px;
+    top: 80px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;  
+    grid-template-rows: 1fr;
+}
+
+
+#instructions {
+    line-height: 170%;
+    padding: 20px 20px 0px 40px;
+    color: white;
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+#apis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    grid-template-rows: 1fr 1fr;  
+    margin-top: 100px;
+    line-height: 200%;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+#counter {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#outer-circle {
+    grid-column: 2/4;
+    grid-row: 1;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow:0 0 40px rgb(233, 233, 235);
+    border-color: black;
+}
+
+#green {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px 0 0 0;
+    background: darkgreen;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+#red {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 250px 0 0;
+    background: darkred;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0px 0px 0px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+#yellow {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 0 250px;
+    background: darkgoldenrod;
+    top: 50%;
+    left: 50%;
+    margin: 0px -250px 0px -250px;
+    border-style: solid;
+    border-width: 5px;
+    box-sizing: border-box;
+    border-color: black;
+}
+
+#blue {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 0 0 250px 0;
+    background: darkblue;
+    top: 50%;
+    left: 50%;
+    margin: 0px 0px -250px 0px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    box-sizing: border-box;
+}
+
+#center {
+    text-align: center;
+    color: white;
+    border-color: black;
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0px 0px -125px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    font-size: 220%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container { 
+        grid-template-columns: 1fr;  
+        grid-template-rows: 1fr 1fr;
+    }
+    #instructions {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #outer-circle { 
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    #apis {
+        grid-template-columns: 1fr;  
+        grid-template-rows: 1fr 1fr 1fr 1fr;  
+        margin-top: -10px;
+        padding-bottom: 50px;
+    }
+    #trivia {
+        padding-top: 20px;
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #joke {
+        padding-top: 20px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #news1 {
+        padding-top: 20px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #news2 {
+        padding-top: 20px;
+        grid-column: 1;
+        grid-row: 4;
+    }
+}

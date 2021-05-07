@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="instructions">
+            <br><h1>How to play</h1><br>
+            <p>Press the new game button. Simon will give the first signal. Repeat the signal by pressing the same color lens.</p>
+            <p>Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order.</p>
+            <p>Simon will duplicate these first two signals and add one.</p>
+            <p>Continue playing as long as you can repeat each sequence of signals correctly.</p>
+            <p>If you fail to repeat a sequence exactly, you lose!</p><br><br>
+            <h4>Fun Fact!</h4>
+            <i>The most sequences completed in a game of Simon is 84 and was achieved in Caesarea, Canada, on 28 November 2020</i>
+        </div>
+        <div id="outer-circle">
+            <div id="green"></div>
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="blue"></div>
+            <div id="center">Simon<br>
+                <button id="button" onclick="newGame()">New Game</button>
+                <div id="counter">--</div>
+            </div>
+        </div>
+    </div>
+    <div id="apis">
+        <div id="trivia">
+            <h3>Random Generated Trivia</h3>
+        </div>
+        <div id="joke">
+            <h3>Random Generated Joke</h3>
+        </div>
+        <div id="news1">
+        </div>
+        <div id="news2">
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+    <script type="module" src="api.js" ></script>
+</body>
+
+</html>
