@@ -28,28 +28,6 @@ Unlock as many as you like. Your point cap is set to 90 (which will ensure 90/10
 
 5    Too many cooks?!? - Add a fourth 3rd party API
 
-5    And you get an API! And you get an API! - And... Add a fifth 3rd party API
-
-15   There’s something about Firebase - Implement a complete backend system including user accounts and login for your website in firebase (mutually exclusive w/ With great power comes... great complexity?)
-
-30   With great power comes... great complexity? - Implement a complete backend system including user accounts and login in the language of your choice with a database of your choice. (mutually exclusive w/ There’s something about firebase).
-
-3x   One size fits all - Use a 3rd party OAuth for external login. 3 points per.
-
-3x   This could end poorly - Accept payment processing through a secure 3rd party (DO NOT try to implement credit card payment yourself. Common ones include Paypal, Apple pay, Google pay, Amazon pay). 3 points per.
-
 30   rEnder it - Make a game!
 
-10   Autocomp - Implement some form on autocomplete or give completion suggestions on a field.
-
 10   Glutton for punishment - Make a mobile-friendly, top-notch site with no CSS libraries or helpers. 
-
-5    Made to order - Implement custom color theming choosable by the user (at least support dark and light modes). Theming should be tied to use a user so it doesn’t need to be changed every time. 
-
-10   It’s a friblork? - Make your frontend in a javascript-based framework/library. (Angular 1-9, React, Vue, Ember).
-
-5    Bop it - Implement WebSockets for a real-time portion of your website. ME with Ssssss
-
-5    Sssssss - Implement Server-Sent-Events for a real-time portion of your website. ME with Bop It
-
-
